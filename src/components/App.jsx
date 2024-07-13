@@ -51,7 +51,7 @@ export default function App() {
             onChange={(e) => setHoursToAdd(parseInt(e.target.value))}
           />
         </label>
-        <button className={css.addClock} onClick={handleAddHours}>
+        <button type="button" className={css.addClock} onClick={handleAddHours}>
           Додати години
         </button>
         {newDate && (
