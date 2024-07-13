@@ -148,16 +148,15 @@ h2 {
 .appNewDate {
   letter-spacing: 0.02em;
   margin: 0 auto;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 45px;
+  font-weight: 400;
   color: #f9f500;
-  max-width: 350px;
 }
 
-.appNewDate::after {
+/* .appNewDate::after {
   content: "";
   height: 2px;
   width: 100%;
   background-color: coral;
   display: block;
-}
+} */
