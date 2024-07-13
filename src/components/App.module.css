@@ -7,12 +7,6 @@
   background-color: black;
 }
 
-/* .app {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-} */
-
 .appH1 {
   margin: 0 0 20px 0;
   font-size: 45px;
@@ -24,14 +18,15 @@
   font-size: 25px;
   color: chocolate;
   margin-bottom: 10px;
+  display: block;
 }
 
-.labelPosition {
+/* .labelPosition {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
-}
+} */
 
 /* .sumAppHours{
     
@@ -46,7 +41,7 @@
 .appH3 {
   font-size: 25px;
   color: chocolate;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .dataApp {
   display: flex;
@@ -66,6 +61,7 @@
   transition: 0.4s;
   background-color: black;
   color-scheme: light;
+  margin-bottom: 50px;
 }
 
 .dataApp:hover {
