@@ -60,7 +60,7 @@
     2px 4px 16px 0px rgba(0, 255, 255, 0.7);
   transition: 0.4s;
   background-color: black;
-  color-scheme: light;
+  /* color-scheme: light; */
   margin-bottom: 50px;
 }
 
