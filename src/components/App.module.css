@@ -124,7 +124,7 @@
     1px 2px 4px 0px rgba(0, 255, 255, 0.7),
     2px 4px 8px 0px rgba(0, 255, 255, 0.7),
     2px 4px 16px 0px rgba(0, 255, 255, 0.7);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border: none;
   letter-spacing: 0.04em;
   border-radius: 20px;
@@ -144,7 +144,7 @@
 h2 {
   font-size: 35px;
   font-weight: 15;
-  margin: 0 0 20px 0;
+  margin: 0px 0 0px 0;
   color: coral;
   letter-spacing: 0.02em;
 }
