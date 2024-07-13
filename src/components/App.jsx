@@ -5,7 +5,7 @@ export default function App() {
   const [initialDate, setInitialDate] = useState(
     new Date().toISOString().slice(0, 16)
   );
-  const [hoursToAdd, setHoursToAdd] = useState();
+  const [hoursToAdd, setHoursToAdd] = useState("");
   const [newDate, setNewDate] = useState("");
 
   const addHoursToDate = (date, hours) => {
@@ -27,6 +27,7 @@ export default function App() {
     });
 
     setNewDate(formattedDate);
+    setHoursToAdd(""); // Очищаємо поле вводу кількості годин
   };
 
   return (
