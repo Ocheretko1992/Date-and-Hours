@@ -21,7 +21,7 @@
   display: block;
 }
 
-@media all and (max-width: 498px) {
+@media all and (max-width: 768px) {
   .appH1::after {
     content: "";
     height: 2px;
