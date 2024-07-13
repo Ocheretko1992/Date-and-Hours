@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import css from "./App.module.css";
 
 export default function App() {
@@ -7,6 +7,7 @@ export default function App() {
   );
   const [hoursToAdd, setHoursToAdd] = useState("");
   const [newDate, setNewDate] = useState("");
+  const [clearInput, setClearInput] = useState(false);
 
   const addHoursToDate = (date, hours) => {
     const result = new Date(date);
@@ -15,6 +16,12 @@ export default function App() {
   };
 
   const handleAddHours = () => {
+    if (!hoursToAdd) {
+      // Показуємо помилку, якщо не введено кількість годин
+      alert("Будь ласка, введіть кількість годин.");
+      return;
+    }
+
     const result = addHoursToDate(initialDate, hoursToAdd);
 
     // Форматуємо дату на українську мову
