@@ -45,6 +45,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
+  flex-direction: column;
 }
 
 /* .sumAppHours{
