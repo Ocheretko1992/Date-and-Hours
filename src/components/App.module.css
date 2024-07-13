@@ -86,6 +86,7 @@
   box-shadow: 0px 1px 2px 0px rgba(0, 255, 4, 0.9),
     1px 2px 4px 0px rgba(0, 255, 17, 0.9), 2px 4px 8px 0px rgba(0, 255, 55, 0.9),
     2px 4px 16px 0px rgba(0, 255, 4, 0.9);
+  border: 1px solid transparent;
 }
 
 .dataApp2 {
