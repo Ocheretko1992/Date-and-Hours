@@ -21,6 +21,18 @@
   display: block;
 }
 
+@media all and (max-width: 498px) {
+  .appH1::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: coral;
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+}
+
 .appH2 {
   font-size: 25px;
   color: chocolate;
@@ -55,7 +67,7 @@
   justify-content: center;
   color: chartreuse;
   height: 50px;
-  font-size: 22px;
+  font-size: 23px;
   border-radius: 20px;
   width: 100%;
   border: none;
@@ -78,7 +90,7 @@
 .dataApp2 {
   color: chartreuse;
   height: 50px;
-  font-size: 22px;
+  font-size: 23px;
   border-radius: 20px;
   width: 100%;
   border: none;
@@ -135,8 +147,17 @@ h2 {
 
 .appNewDate {
   letter-spacing: 0.02em;
-  margin: 0;
-  font-size: 25px;
-  font-weight: 20;
-  color: darkkhaki;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 700;
+  color: #f9f500;
+  max-width: 350px;
+}
+
+.appNewDate::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: coral;
+  display: block;
 }

@@ -47,7 +47,6 @@ export default function App() {
           <input
             className={css.dataApp2}
             type="number"
-            name="partydate"
             value={hoursToAdd}
             onChange={(e) => setHoursToAdd(parseInt(e.target.value))}
           />
