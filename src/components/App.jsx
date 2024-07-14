@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import css from "./App.module.css";
 
 export default function App() {
@@ -7,7 +7,6 @@ export default function App() {
   );
   const [hoursToAdd, setHoursToAdd] = useState("");
   const [newDate, setNewDate] = useState("");
-  const [clearInput, setClearInput] = useState(false);
 
   const addHoursToDate = (date, hours) => {
     const result = new Date(date);
