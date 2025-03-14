@@ -59,7 +59,7 @@ export default function App() {
           />
         </label>
         <button type="button" className={css.addClock} onClick={handleAddHours}>
-          Додати години
+          Пошук дати
         </button>
         {newDate && (
           <div>
