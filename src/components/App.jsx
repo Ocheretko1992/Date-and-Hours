@@ -35,10 +35,18 @@ export default function App() {
     setNewDate(formattedDate);
     setHoursToAdd(""); // Очищаємо поле вводу кількості годин
   };
-
+ 
   return (
     <div className={css.containerApp}>
+      <img
+        src={"../../public/Decorated Christmas .png"}
+        alt="Ялинка"
+        width="400px"
+      />
       <div className={css.app}>
+        <h1 className={css.heppyNewYear}>2026</h1>
+        <br />
+        <br />
         <h1 className={css.appH1}>Додавання годин до Дати</h1>
         <label className={css.labelPosition}>
           <span className={css.appH2}>Початкова дата і час</span>
@@ -68,6 +76,11 @@ export default function App() {
           </div>
         )}
       </div>
+      <img
+        src={"../../public/Decorated Christmas .png"}
+        alt="Ялинка"
+        width="400px"
+      />
     </div>
   );
 }
