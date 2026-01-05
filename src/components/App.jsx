@@ -38,13 +38,13 @@ export default function App() {
  
   return (
     <div className={css.containerApp}>
-      <img
+      {/* <img
         src={"../../public/Decorated Christmas .png"}
         alt="Ялинка"
         width="400px"
-      />
+      /> */}
       <div className={css.app}>
-        <h1 className={css.heppyNewYear}>2026</h1>
+        {/* <h1 className={css.heppyNewYear}>2026</h1> */}
         <br />
         <br />
         <h1 className={css.appH1}>Додавання годин до Дати</h1>
@@ -76,11 +76,11 @@ export default function App() {
           </div>
         )}
       </div>
-      <img
+      {/* <img
         src={"../../public/Decorated Christmas .png"}
         alt="Ялинка"
         width="400px"
-      />
+      /> */}
     </div>
   );
 }
