@@ -1,5 +1,6 @@
 import { useState } from "react";
 import css from "./App.module.css";
+import img from "../../public/Decorated Christmas .png";
 
 export default function App() {
   const [initialDate, setInitialDate] = useState(
@@ -35,16 +36,12 @@ export default function App() {
     setNewDate(formattedDate);
     setHoursToAdd(""); // Очищаємо поле вводу кількості годин
   };
- 
+
   return (
     <div className={css.containerApp}>
-      {/* <img
-        src={"../../public/Decorated Christmas .png"}
-        alt="Ялинка"
-        width="400px"
-      /> */}
+      <img src={img} alt="Ялинка" width="400px" />
       <div className={css.app}>
-        {/* <h1 className={css.heppyNewYear}>2026</h1> */}
+        <h1 className={css.heppyNewYear}>2026</h1>
         <br />
         <br />
         <h1 className={css.appH1}>Додавання годин до Дати</h1>
@@ -76,11 +73,7 @@ export default function App() {
           </div>
         )}
       </div>
-      {/* <img
-        src={"../../public/Decorated Christmas .png"}
-        alt="Ялинка"
-        width="400px"
-      /> */}
+      <img src={img} alt="Ялинка" width="400px" />
     </div>
   );
 }
